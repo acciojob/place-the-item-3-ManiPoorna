@@ -1,2 +1,14 @@
-
-/* Your CSS Code here. */
+.holder{
+	height : 80vh;
+	background : yellow;
+	display : flex;
+	flex-wrap : wrap;
+	justify-content: space-evenly;
+	flex : 0 1;
+}
+.child{
+	height : 100px;
+	width : 100px;
+	
+	background : pink;	
+}
